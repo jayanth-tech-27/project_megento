@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="88.3" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-23T09:14:17.726550200Z">
+<testcase classname="Checking Logout Functionality" name="To check the Logout functionality - #1.1" time="87.903">
+<system-out><![CDATA[
+Given User opens the browser................................................passed
+And User navigates to the URL "https://magento.softwaretestingboard.com/"...passed
+When User clicks the link "Sign In".........................................passed
+And User enters valid email "jayanthaws2000@gmail.com" and password "9948640337@27a".passed
+And User clicks the "Sign In" button........................................passed
+And User clicks "Logout" from "My Account" page.............................passed
+Then User verifies that the session ends and the user is redirected to the homepage.passed
+And User verifies the "Home Page" is displayed..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

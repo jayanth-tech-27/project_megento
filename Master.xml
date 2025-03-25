@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">     
+ <test name="signupTest">
+    <classes>
+		<class name="Pages.SignupPage"/>
+		</classes>
+	</test>
+<test name="LoginExcel_Tc">
+    <classes>
+		 <class name="Utils.LoginExcelTC"/>
+		</classes>
+	</test>
+	<test name="SearchaddProduct">
+    <classes>
+	 <class name="Utils.SearchaddProduct_TC"/>
+	</classes>
+</test>
+	  <test name="MultiProductSearchaddProduct">
+    <classes>
+   	 <class name="Utils.Multiproductadd_TC"/>
+		</classes>
+	</test>
+	<test name="Checkoutpage">
+    <classes>
+		 <class name="Utils.CheckoutTest"/>
+		</classes>
+	</test>
+	<test name="LogoutPage">
+    <classes>
+	<class name="MyRunner.LogoutRunnertNG"/>
+		</classes>
+	</test>
+</suite> 

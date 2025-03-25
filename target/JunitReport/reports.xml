@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.199" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-22T15:28:57.559199500Z">
+<testcase classname="Checking Logout Functionality" name="To check the Logout functionality with invalid credentials - #1.1" time="15.961">
+<system-out><![CDATA[
+Given User opens the browser................................................passed
+And User navigates to the URL "https://magento.softwaretestingboard.com/"...passed
+When User clicks the link "Sign In".........................................passed
+And User enters invalid email "testuser@gmail.com" and password "12345678"..passed
+And User clicks the "Sign In" button........................................passed
+Then User should see an error message "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.".passed
+]]></system-out>
+</testcase>
+</testsuite>

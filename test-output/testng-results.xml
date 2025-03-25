@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-25T14:36:11 IST" name="Suite" finished-at="2025-03-25T14:39:45 IST" duration-ms="214267">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LogoutRunnertNG@b4711e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-25T14:36:11 IST" name="signupTest" finished-at="2025-03-25T14:36:26 IST" duration-ms="15623">
+      <class name="Pages.SignupPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Pages.SignupPage@2931522b]" started-at="2025-03-25T14:36:11 IST" name="setup" finished-at="2025-03-25T14:36:20 IST" duration-ms="8820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoadedData()[pri:1, instance:Pages.SignupPage@2931522b]" started-at="2025-03-25T14:36:20 IST" name="verifyLoadedData" finished-at="2025-03-25T14:36:20 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoadedData -->
+        <test-method signature="login()[pri:2, instance:Pages.SignupPage@2931522b]" started-at="2025-03-25T14:36:20 IST" name="login" finished-at="2025-03-25T14:36:26 IST" depends-on-methods="Pages.SignupPage.verifyLoadedData" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Pages.SignupPage@2931522b]" started-at="2025-03-25T14:36:26 IST" name="closeBrowser" finished-at="2025-03-25T14:36:26 IST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Pages.SignupPage -->
+    </test> <!-- signupTest -->
+    <test started-at="2025-03-25T14:36:27 IST" name="LoginExcel_Tc" finished-at="2025-03-25T14:37:50 IST" duration-ms="83645">
+      <class name="Utils.LoginExcelTC">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Utils.LoginExcelTC@6f7923a5]" started-at="2025-03-25T14:36:27 IST" name="openBrowser" finished-at="2025-03-25T14:36:37 IST" duration-ms="10155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="readDataFromExcel()[pri:0, instance:Utils.LoginExcelTC@6f7923a5]" started-at="2025-03-25T14:36:37 IST" name="readDataFromExcel" finished-at="2025-03-25T14:37:49 IST" duration-ms="72801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromExcel -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:Utils.LoginExcelTC@6f7923a5]" started-at="2025-03-25T14:37:50 IST" name="closeReport" finished-at="2025-03-25T14:37:50 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- Utils.LoginExcelTC -->
+    </test> <!-- LoginExcel_Tc -->
+    <test started-at="2025-03-25T14:37:50 IST" name="SearchaddProduct" finished-at="2025-03-25T14:38:08 IST" duration-ms="18167">
+      <class name="Utils.SearchaddProduct_TC">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Utils.SearchaddProduct_TC@63611043]" started-at="2025-03-25T14:37:50 IST" name="openBrowser" finished-at="2025-03-25T14:37:58 IST" duration-ms="7684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="readDataFromExcel()[pri:1, instance:Utils.SearchaddProduct_TC@63611043]" started-at="2025-03-25T14:37:58 IST" name="readDataFromExcel" finished-at="2025-03-25T14:38:01 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromExcel -->
+        <test-method signature="searchProduct()[pri:2, instance:Utils.SearchaddProduct_TC@63611043]" started-at="2025-03-25T14:38:01 IST" name="searchProduct" finished-at="2025-03-25T14:38:08 IST" duration-ms="6949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:Utils.SearchaddProduct_TC@63611043]" started-at="2025-03-25T14:38:08 IST" name="closeReport" finished-at="2025-03-25T14:38:08 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- Utils.SearchaddProduct_TC -->
+    </test> <!-- SearchaddProduct -->
+    <test started-at="2025-03-25T14:38:08 IST" name="MultiProductSearchaddProduct" finished-at="2025-03-25T14:38:29 IST" duration-ms="20430">
+      <class name="Utils.Multiproductadd_TC">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Utils.Multiproductadd_TC@7d9e8ef7]" started-at="2025-03-25T14:38:08 IST" name="openBrowser" finished-at="2025-03-25T14:38:16 IST" duration-ms="7333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="readDataFromExcel()[pri:1, instance:Utils.Multiproductadd_TC@7d9e8ef7]" started-at="2025-03-25T14:38:16 IST" name="readDataFromExcel" finished-at="2025-03-25T14:38:18 IST" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromExcel -->
+        <test-method signature="searchAndAddMultipleProducts()[pri:2, instance:Utils.Multiproductadd_TC@7d9e8ef7]" started-at="2025-03-25T14:38:18 IST" name="searchAndAddMultipleProducts" finished-at="2025-03-25T14:38:28 IST" duration-ms="10142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndAddMultipleProducts -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:Utils.Multiproductadd_TC@7d9e8ef7]" started-at="2025-03-25T14:38:28 IST" name="closeReport" finished-at="2025-03-25T14:38:29 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- Utils.Multiproductadd_TC -->
+    </test> <!-- MultiProductSearchaddProduct -->
+    <test started-at="2025-03-25T14:38:29 IST" name="Checkoutpage" finished-at="2025-03-25T14:39:22 IST" duration-ms="53483">
+      <class name="Utils.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Utils.CheckoutTest@1e44b638]" started-at="2025-03-25T14:38:29 IST" name="setUp" finished-at="2025-03-25T14:38:39 IST" duration-ms="10092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="readDataFromExcel()[pri:1, instance:Utils.CheckoutTest@1e44b638]" started-at="2025-03-25T14:38:39 IST" name="readDataFromExcel" finished-at="2025-03-25T14:38:47 IST" duration-ms="7842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromExcel -->
+        <test-method signature="testCheckoutProcess()[pri:2, instance:Utils.CheckoutTest@1e44b638]" started-at="2025-03-25T14:38:47 IST" name="testCheckoutProcess" finished-at="2025-03-25T14:39:22 IST" duration-ms="35004" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="action primary checkout" type="submit" data-bind="
+                        click: placeOrder,
+                        attr: {title: $t('Place Order')},
+                        css: {disabled: !isPlaceOrderActionAllowed()},
+                        enable: (getCode() == isChecked())
+                        " title="Place Order">...</button> is not clickable at point (867, 396). Other element would receive the click: <div class="checkout-billing-address">...</div>
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7b67abc9a90fd08e3f02982d6a6bad0, clickElement {id=f.2AACA99D2384F475E8E1A390846DFB03.d.E6A2D53F12C7340F943E183BFCC5BC81.e.331}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\JAYANTH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60374/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7b67abc9a90fd08e3f02982d6a6bad0)] -> xpath: //button[@title='Place Order']]
+Session ID: a7b67abc9a90fd08e3f02982d6a6bad0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="action primary checkout" type="submit" data-bind="
+                        click: placeOrder,
+                        attr: {title: $t('Place Order')},
+                        css: {disabled: !isPlaceOrderActionAllowed()},
+                        enable: (getCode() == isChecked())
+                        " title="Place Order">...</button> is not clickable at point (867, 396). Other element would receive the click: <div class="checkout-billing-address">...</div>
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7b67abc9a90fd08e3f02982d6a6bad0, clickElement {id=f.2AACA99D2384F475E8E1A390846DFB03.d.E6A2D53F12C7340F943E183BFCC5BC81.e.331}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\JAYANTH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60374/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7b67abc9a90fd08e3f02982d6a6bad0)] -> xpath: //button[@title='Place Order']]
+Session ID: a7b67abc9a90fd08e3f02982d6a6bad0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+at Pages.PageFactoryCheckout.placeOrder(PageFactoryCheckout.java:128)
+at Utils.CheckoutTest.testCheckoutProcess(CheckoutTest.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutProcess -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:Utils.CheckoutTest@1e44b638]" started-at="2025-03-25T14:39:22 IST" name="closeReport" finished-at="2025-03-25T14:39:22 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- Utils.CheckoutTest -->
+    </test> <!-- Checkoutpage -->
+    <test started-at="2025-03-25T14:39:22 IST" name="LogoutPage" finished-at="2025-03-25T14:39:45 IST" duration-ms="22738">
+      <class name="MyRunner.LogoutRunnertNG">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MyRunner.LogoutRunnertNG@b4711e2]" started-at="2025-03-25T14:39:22 IST" name="setUpClass" finished-at="2025-03-25T14:39:23 IST" duration-ms="638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@229514ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LogoutRunnertNG@b4711e2]" started-at="2025-03-25T14:39:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T14:39:45 IST" duration-ms="22033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check the Logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.LogoutRunnertNG@b4711e2]" started-at="2025-03-25T14:39:45 IST" name="tearDownClass" finished-at="2025-03-25T14:39:45 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.LogoutRunnertNG -->
+    </test> <!-- LogoutPage -->
+  </suite> <!-- Suite -->
+</testng-results>
