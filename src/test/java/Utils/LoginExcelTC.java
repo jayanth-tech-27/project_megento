@@ -43,7 +43,6 @@ public class LoginExcelTC extends BaseClass {
         // Wait for "Sign In" link to be clickable and click
         WebElement signInLink = wait.until(d -> d.findElement(By.linkText("Sign In")));
         signInLink.click();
-
         login_page = new LoginPage(driver);
     }
 
