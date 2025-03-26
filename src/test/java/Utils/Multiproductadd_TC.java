@@ -28,7 +28,6 @@ public class Multiproductadd_TC extends BaseClass {
 
     @BeforeTest
     public void openBrowser() {  
-//        ExtentReportManagement.initializeReport(); 
         ExtentReportManagement.startTest("MultiProduct Add to Cart");
 
         invokeBrowser("chrome");

@@ -129,12 +129,6 @@
       <artifactId>allure-java-commons</artifactId>
       <version>2.21.0</version>
     </dependency>
-
-   <!-- <dependency>
-    	<groupId>EXAM_ASSESMENT</groupId>
-    	<artifactId>EXAM_ASSESMENT</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>-->
   </dependencies>
 
   <build>
@@ -146,7 +140,7 @@
         <version>3.13.0</version>
       </plugin>
 
-      <plugin>
+      <!--<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.3.0</version>
@@ -155,7 +149,7 @@
             <suiteXmlFile>depends.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
-      </plugin>
+      </plugin>-->
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -175,7 +169,7 @@
 				<configuration>
 					<!--<includes>Testngdemo1.java</includes>-->
 					<suiteXmlFiles>
-						<suiteXmlFile>P.xml</suiteXmlFile>
+						<suiteXmlFile>Master.xml</suiteXmlFile>
 						<!--<suiteXmlFile>testng-suite.xml</suiteXmlFile>-->
 					</suiteXmlFiles>
 					<!--<includes>./cart/CartRunnerWrapper.class</includes>-->

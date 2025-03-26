@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Checkoutpage(failed)">
+  <test thread-count="5" name="signupTest(failed)">
     <classes>
-      <class name="Utils.CheckoutTest">
+      <class name="Pages.RegisterPage">
         <methods>
-          <include name="setUp"/>
-          <include name="closeReport"/>
-          <include name="testCheckoutProcess"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="verifyLoadedData"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Utils.CheckoutTest -->
+      </class> <!-- Pages.RegisterPage -->
     </classes>
-  </test> <!-- Checkoutpage(failed) -->
+  </test> <!-- signupTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

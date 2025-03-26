@@ -1,3 +1,4 @@
+@LogoutTest
 Feature: Checking Logout Functionality  
 
   Scenario: To check the Logout functionality  
@@ -9,11 +10,7 @@ Feature: Checking Logout Functionality
     And User clicks "Logout" from "My Account" page  
     Then User verifies that the session ends and the user is redirected to the homepage  
     And User verifies the "Home Page" is displayed  
-    
-    
+
     Examples:  
       | email                        | password       |                         
       | jayanthaws2000@gmail.com     | 9948640337@27a |
-      
-      
-      

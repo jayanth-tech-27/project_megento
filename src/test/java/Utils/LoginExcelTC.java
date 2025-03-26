@@ -31,9 +31,6 @@ public class LoginExcelTC extends BaseClass {
     public void openBrowser(@Optional("chrome") String browser) {
         System.out.println("Opening browser: " + browser);
         ExtentReportManagement.startTest("login_page");
-
-        // 🛠 Ensure WebDriver is properly initialized
-       
             invokeBrowser(browser);
         driver.get("https://magento.softwaretestingboard.com");
 
@@ -79,7 +76,7 @@ public class LoginExcelTC extends BaseClass {
 
         } catch (Exception e) {
             System.out.println("Error during login or reading Excel file: " + e.getMessage());
-            throw e;
+          throw e;
         }
     }
 

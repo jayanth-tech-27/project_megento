@@ -71,6 +71,7 @@ public class CheckoutPlaceorderPage {
     private WebElement nextButton;
 
     @FindBy(xpath="//button[@title='Place Order']")
+
     private WebElement placeOrderButton;
 
     @FindBy(css="a[class='order-number'] strong")

@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="false">     
  <test name="signupTest">
     <classes>
-		<class name="Pages.SignupPage"/>
+		<class name="Pages.RegisterPage"/>
 		</classes>
 	</test>
 <test name="LoginExcel_Tc">
@@ -17,13 +17,15 @@
 	</classes>
 </test>
 	  <test name="MultiProductSearchaddProduct">
+	<!--<parameter name="email" value="jayanthaws2000@gmail.com"/>
+        <parameter name="password" value="9948640337@27a"/>-->
     <classes>
    	 <class name="Utils.Multiproductadd_TC"/>
 		</classes>
 	</test>
 	<test name="Checkoutpage">
     <classes>
-		 <class name="Utils.CheckoutTest"/>
+		 <class name="Utils.Checkout_TC"/>
 		</classes>
 	</test>
 	<test name="LogoutPage">

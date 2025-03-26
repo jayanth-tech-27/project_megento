@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Utils.LoginExcelTC">
+      <class name="Utils.Checkout_TC">
         <methods>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="readDataFromExcel"/>
+          <include name="testCheckoutProcess"/>
+          <include name="setUp"/>
+          <include name="closeReport"/>
         </methods>
-      </class> <!-- Utils.LoginExcelTC -->
+      </class> <!-- Utils.Checkout_TC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
